@@ -1,0 +1,125 @@
+{
+  "veri": {
+    "donem": "01.12.2009 – 09.12.2011",
+    "ham_satir": 1067371,
+    "temizlik_adimlari": [
+      {
+        "adim": "Ham veri",
+        "satir": 1067371
+      },
+      {
+        "adim": "Birebir tekrar eden satırlar atıldı",
+        "satir": 1033036
+      },
+      {
+        "adim": "Müşteri numarası olmayanlar atıldı",
+        "satir": 797885
+      },
+      {
+        "adim": "Ürün olmayan satırlar atıldı (kargo, düzeltme, masraf)",
+        "satir": 794223
+      },
+      {
+        "adim": "Fiyatı sıfır olanlar atıldı",
+        "satir": 794163
+      }
+    ],
+    "musterisiz_satir_payi_yuzde": 22.8,
+    "musterisiz_ciro_payi_yuzde": 13.7,
+    "musteri_sayisi": 5875,
+    "iade_satiri": 17586,
+    "iade_tutari": 709953,
+    "brut_ciro": 17068568
+  },
+  "tasarim": {
+    "segment_donemi": "01.12.2009 – 30.11.2010",
+    "dogrulama_donemi": "01.12.2010 – 09.12.2011",
+    "dogrulama_donemi_yeni_musteri": 1617,
+    "segmentlenen_musteri": 4229,
+    "tek_siparisli_musteri_payi_yuzde": 33.5
+  },
+  "k_secimi": [
+    {
+      "k": 2,
+      "siluet": 0.412,
+      "kararlilik_ari": 0.97
+    },
+    {
+      "k": 3,
+      "siluet": 0.317,
+      "kararlilik_ari": 0.904
+    },
+    {
+      "k": 4,
+      "siluet": 0.339,
+      "kararlilik_ari": 0.933
+    },
+    {
+      "k": 5,
+      "siluet": 0.325,
+      "kararlilik_ari": 0.855
+    },
+    {
+      "k": 6,
+      "siluet": 0.304,
+      "kararlilik_ari": 0.842
+    },
+    {
+      "k": 7,
+      "siluet": 0.278,
+      "kararlilik_ari": 0.603
+    }
+  ],
+  "secilen_k": 4,
+  "segmentler": {
+    "Şampiyonlar": {
+      "musteri_sayisi": 709,
+      "musteri_payi": 16.8,
+      "ciro_payi": 63.9,
+      "medyan_son_alisveris_gun": 8.0,
+      "medyan_siparis": 10.0,
+      "medyan_ciro": 3531.0,
+      "medyan_musterilik_gun": 350.0,
+      "sonraki_donem_alisveris_orani": 96.2,
+      "sonraki_donem_ortalama_ciro": 6347.9,
+      "sonraki_donem_ciro_payi": 66.5
+    },
+    "Düzenli": {
+      "musteri_sayisi": 1184,
+      "musteri_payi": 28.0,
+      "ciro_payi": 24.2,
+      "medyan_son_alisveris_gun": 58.0,
+      "medyan_siparis": 4.0,
+      "medyan_ciro": 1286.3,
+      "medyan_musterilik_gun": 280.5,
+      "sonraki_donem_alisveris_orani": 74.0,
+      "sonraki_donem_ortalama_ciro": 1157.1,
+      "sonraki_donem_ciro_payi": 20.2
+    },
+    "Yeni ve küçük": {
+      "musteri_sayisi": 833,
+      "musteri_payi": 19.7,
+      "ciro_payi": 6.5,
+      "medyan_son_alisveris_gun": 12.0,
+      "medyan_siparis": 2.0,
+      "medyan_ciro": 520.4,
+      "medyan_musterilik_gun": 63.0,
+      "sonraki_donem_alisveris_orani": 66.7,
+      "sonraki_donem_ortalama_ciro": 629.2,
+      "sonraki_donem_ciro_payi": 7.7
+    },
+    "Uykudakiler": {
+      "musteri_sayisi": 1503,
+      "musteri_payi": 35.5,
+      "ciro_payi": 5.5,
+      "medyan_son_alisveris_gun": 163.0,
+      "medyan_siparis": 1.0,
+      "medyan_ciro": 256.7,
+      "medyan_musterilik_gun": 196.0,
+      "sonraki_donem_alisveris_orani": 40.1,
+      "sonraki_donem_ortalama_ciro": 246.9,
+      "sonraki_donem_ciro_payi": 5.5
+    }
+  },
+  "sonraki_donem_genel_alisveris_orani": 64.2
+}
